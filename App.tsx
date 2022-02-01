@@ -1,8 +1,11 @@
 import React from 'react';
-import { Text } from 'react-native';
+import {Text} from 'react-native';
+import Navigator from 'config/navigator';
 
-const App: React.FC = () => {
-  return <Text>Hello World!</Text>;
+const x = 2;
+
+const App = () => {
+  return <Navigator />;
 };
 
 export default App;
